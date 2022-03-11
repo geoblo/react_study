@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class Start_001 extends Component {
+class StartClass_001 extends Component {
     render() {
         return (
             <div>
-                <h1>Start React!</h1>
+                <h1>class 컴포넌트!</h1>
                 <p>HTML 적용하기</p>
             </div>
         );
     }
 }
 
-export default Start_001;
+export default StartClass_001;
