@@ -5,7 +5,9 @@
 // import PropsFuncDefault_005 from "./components/PropsFuncDefault_005";
 // import StateClass_006 from "./components/StateClass_006";
 // import Event_007 from "./components/Event_007";
-import Quest001_007 from "./questions/Quest001_007";
+// import Quest001_007 from "./questions/Quest001_007";
+import LifeCycle_008 from './components/LifeCycle_008';
+// import LifeCycle_009 from './components/LifeCycle_009';
 import "./App.css";
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
     // <PropsFuncDefault_005 />
     // <StateClass_006 />
     // <Event_007 />
-    <Quest001_007 />
+    // <Quest001_007 />
+    <LifeCycle_008 name="Mark" />
+    // <LifeCycle_009 />
   );
 }
 
