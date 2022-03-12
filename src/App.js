@@ -1,7 +1,11 @@
 // import StartClass_001 from "./components/StartClass_001";
 // import StartFunc_002 from "./components/StartFunc_002";
 // import PropsClass_003 from "./components/PropsClass_003";
-import PropsFunc_004 from "./components/PropsFunc_004";
+// import PropsFunc_004 from "./components/PropsFunc_004";
+// import PropsFuncDefault_005 from "./components/PropsFuncDefault_005";
+// import StateClass_006 from "./components/StateClass_006";
+// import Event_007 from "./components/Event_007";
+import Quest001_007 from "./questions/Quest001_007";
 import "./App.css";
 
 function App() {
@@ -9,7 +13,11 @@ function App() {
     // <StartClass_001 />
     // <StartFunc_002 />
     // <PropsClass_003 msg="안녕하세요!" />
-    <PropsFunc_004 msg="안녕하세요!" />
+    // <PropsFunc_004 msg="안녕하세요!" />
+    // <PropsFuncDefault_005 />
+    // <StateClass_006 />
+    // <Event_007 />
+    <Quest001_007 />
   );
 }
 
