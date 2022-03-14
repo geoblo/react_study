@@ -1,7 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-class LifeCycle_009 extends Component {
+class LifeCycle_009 extends Component {}
 
-}
-
-export default LifeCycle_009;
+export default LifeCycle_009
