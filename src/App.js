@@ -8,8 +8,10 @@
 // import Quest001_007 from "./questions/Quest001_007";
 // import LifeCycle_008 from './components/LifeCycle_008'
 // import LifeCycle_009 from './components/LifeCycle_009';
-import Router010 from './components/Router_010'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Router010 from './components/router/Router_010'
+import Router011 from './components/router/Router_011'
+import Router012 from './components/router/Router_012'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -27,6 +29,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Router010 />} />
+        <Route path="/router11" element={<Router011 />} />
+        <Route path="/router11/:id" element={<Router011 />} />
+        <Route path="/router12/*" element={<Router012 />} />
       </Routes>
     </BrowserRouter>
   )
