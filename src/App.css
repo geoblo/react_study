@@ -1,9 +1,19 @@
-h1 { color: salmon; }
+h1 {
+  color: salmon;
+}
 
-p{
+p {
   color: cadetblue;
 }
 
 .txt {
   font-size: 30px;
+}
+
+.nav-link {
+  color: red;
+}
+
+.activated {
+  color: aqua;
 }

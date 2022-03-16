@@ -8,11 +8,14 @@
 // import Quest001_007 from "./questions/Quest001_007";
 // import LifeCycle_008 from './components/LifeCycle_008'
 // import LifeCycle_009 from './components/LifeCycle_009';
-import Router010 from './components/router/Router_010'
-import Router011 from './components/router/Router_011'
-import Router012 from './components/router/Router_012'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './App.css'
+import Router010 from './components/router/Router_010';
+import Router011 from './components/router/Router_011';
+import Router012 from './components/router/Router_012';
+import NotFound_013 from './components/router/NotFound_013';
+import Link_014 from './components/router/Link_014';
+import NavLink_015 from './components/router/NavLink_015';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './App.css';
 
 function App() {
   return (
@@ -27,14 +30,22 @@ function App() {
     // <LifeCycle_008 name="Mark" />
     // <LifeCycle_009 />
     <BrowserRouter>
+      <a href="/">home</a>
+      <br />
+      <a href="/router11">/router11</a>
+      <br />
+      <a href="/router11/:id">/router11/person1</a>
+      <Link_014 />
+      <NavLink_015 />
       <Routes>
         <Route path="/" element={<Router010 />} />
         <Route path="/router11" element={<Router011 />} />
         <Route path="/router11/:id" element={<Router011 />} />
         <Route path="/router12/*" element={<Router012 />} />
+        <Route path="/*" element={<NotFound_013 />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
