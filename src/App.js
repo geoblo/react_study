@@ -14,8 +14,13 @@ import Router012 from './components/router/Router_012';
 import NotFound_013 from './components/router/NotFound_013';
 import Link_014 from './components/router/Link_014';
 import NavLink_015 from './components/router/NavLink_015';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
+import Sass_016 from './components/sass/Sass_016';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+// const isLogin = true;
+// import './App.css';
+// import './App.scss';
+import styles from './App.module.css';
+console.log(styles);
 
 function App() {
   return (
@@ -29,22 +34,24 @@ function App() {
     // <Quest001_007 />
     // <LifeCycle_008 name="Mark" />
     // <LifeCycle_009 />
-    <BrowserRouter>
-      <a href="/">home</a>
-      <br />
-      <a href="/router11">/router11</a>
-      <br />
-      <a href="/router11/:id">/router11/person1</a>
-      <Link_014 />
-      <NavLink_015 />
-      <Routes>
-        <Route path="/" element={<Router010 />} />
-        <Route path="/router11" element={<Router011 />} />
-        <Route path="/router11/:id" element={<Router011 />} />
-        <Route path="/router12/*" element={<Router012 />} />
-        <Route path="/*" element={<NotFound_013 />} />
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <a href="/">home</a>
+    //   <br />
+    //   <a href="/router11">/router11</a>
+    //   <br />
+    //   <a href="/router11/:id">/router11/person1</a>
+    //   <Link_014 />
+    //   <NavLink_015 />
+    //   <Routes>
+    //     <Route path="/" element={<Router010 />} />
+    //     {/* <Route path="/" element={<Navigate replace to="/router11" />} /> */}
+    //     <Route path="/router11" element={<Router011 />} />
+    //     <Route path="/router11/:id" element={<Router011 />} />
+    //     <Route path="/router12/*" element={<Router012 />} />
+    //     <Route path="/*" element={<NotFound_013 />} />
+    //   </Routes>
+    // </BrowserRouter>
+    <Sass_016 />
   );
 }
 

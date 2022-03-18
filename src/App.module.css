@@ -1,0 +1,19 @@
+h1 {
+  color: salmon;
+}
+
+p {
+  color: cadetblue;
+}
+
+.txt {
+  font-size: 30px;
+}
+
+.nav-link {
+  color: red;
+}
+
+.activated {
+  color: aqua;
+}
