@@ -3,12 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Personcontext from './components/contexts/PersonContext';
+const persons = [
+  { id: 0, name: 'Mark', age: 39 },
+  { id: 0, name: 'Suzi', age: 19 },
+];
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Personcontext.Provider value={persons}>
+      <App />
+    </Personcontext.Provider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function

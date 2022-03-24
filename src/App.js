@@ -15,7 +15,7 @@
 // import NotFound_013 from './components/router/NotFound_013';
 // import Link_014 from './components/router/Link_014';
 // import NavLink_015 from './components/router/NavLink_015';
-// import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // const isLogin = true;
 
 // import Sass_016 from './components/styles/Sass_016';
@@ -50,7 +50,12 @@
 // import Hooks_024 from './components/hooks/Hooks_024';
 // import Hooks_025 from './components/hooks/Hooks_025';
 // import Hooks_026 from './components/hooks/Hooks_026';
-import Hooks_027 from './components/hooks/Hooks_027';
+// import Hooks_027 from './components/hooks/Hooks_027';
+
+// import A_028 from './components/contexts/A_028';
+// import ContextConsumer_029 from './components/ContextConsumer_029';
+// import Thiscontext030 from './components/ThisContext_030';
+import UseContext_031 from './components/UseContext_031';
 
 function App() {
   // const width = Hooks_024();
@@ -100,7 +105,11 @@ function App() {
     // <>{width}</>
     // <Hooks_025 />
     // <Hooks_026 />
-    <Hooks_027 />
+    // <Hooks_027 />
+    // <A_028 />
+    // <ContextConsumer_029 />
+    // <Thiscontext030 />
+    <UseContext_031 />
   );
 }
 
